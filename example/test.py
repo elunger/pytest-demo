@@ -6,3 +6,6 @@ def test_add_numbers():
 
 def test_subtract_numbers():
     assert (subtract_numbers(1.0, 2.0) == -1.0)
+
+def test_multiply_numbers():
+    assert (multiply_numbers(2.0, 3.0) == 6.0)
